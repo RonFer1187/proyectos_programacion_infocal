@@ -7,7 +7,7 @@ siglas = ""
 
 for palabra in palabras:
 
-    if len(palabra) >= 4:
+    if len(palabra) > 3:
         
         siglas += palabra[0].upper()
 
